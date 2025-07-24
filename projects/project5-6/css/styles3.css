@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.login-form {
+  border: 1px solid #a5a5a5db;
+  box-shadow: 0px 5px 4px 1px rgba(182, 180, 180, 0.705);
+  border-radius: 8px;
+  padding: 30px;
+  width: 300px;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 30rem;
+  font-family: "Poppins", sans-serif;
+}
+.admin {
+  text-align: center;
+  line-height: 0px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.admin h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.admin > h2 > span {
+  color: #5044e5;
+}
+.admin p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.pass {
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.pass > .email {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.pass > .password {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7px;
+}
+.email > label {
+  color: #595858;
+}
+.email > input {
+  border: none;
+  outline: none;
+  padding: 10px 8px;
+  border-bottom: 2px solid #a09e9ea0;
+}
+.password > label {
+  color: #595858;
+}
+.password > input {
+  border: none;
+  outline: none;
+  padding: 10px 8px;
+  border-bottom: 2px solid #a09e9ea0;
+}
+::placeholder {
+  color: #8b8a8aea;
+  align-items: center;
+}
+.login {
+  text-align: center;
+}
+.login button {
+  background-color: #5044e5;
+  color: #fff;
+  font-size: 15px;
+  padding: 12px 130px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 424px) {
+  .login-form {
+    width: 220px;
+  }
+  .login button {
+    padding: 12px 90px;
+  }
+}

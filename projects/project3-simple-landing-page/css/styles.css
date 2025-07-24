@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header-section {
+  background-color: #1d2351;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 60px;
+  position: relative;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-section > .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.navbar > .nav-list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  color: #fff;
+}
+.navbar > .nav-list .nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar > .nav-list .nav-link:hover {
+  border-bottom: 1px solid #a1a105;
+}
+.logo {
+  color: #a1a105;
+  font-size: 22px;
+}
+.logo span {
+  color: #fff;
+}
+
+/* hide the menu-bar on desktop */
+.menu-bar {
+  display: none;
+}
+
+/* hero-content styling*/
+.hero-contents {
+  margin-top: 60px;
+}
+.hero-contents h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hero-contents p {
+  max-width: 600px;
+  margin: 0 auto 0;
+  font-size: 0.77em;
+}
+.hero-contents a {
+  display: inline-block;
+  margin: 33px;
+  background-color: #8b0505;
+  padding: 12px 25px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+/* Header styling ends here */
+
+/* feature section starts here */
+.feature-section {
+  padding: 70px 30px;
+}
+.row {
+  text-align: center;
+  display: flex;
+  gap: 25px;
+}
+.row:last-child {
+  margin-top: 25px;
+}
+.content i {
+  font-size: 3rem;
+  color: #a90303;
+  margin-bottom: 18px;
+}
+.content h5 {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+}
+
+/* media query for responsiveness */
+@media screen and (max-width: 320px) {
+  .hero-contents h1 {
+    font-size: 1.2rem;
+  }
+}
+/* @media screen and (max-width: 879px) {
+  .navbar > .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #fff;
+    font-size: 10px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .navbar > .nav-list {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-bar i {
+    font-size: 1.88em;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+}

@@ -146,6 +146,7 @@ body {
 }
 .about-me {
   text-align: center;
+  line-height: 60px;
 }
 .about-me h2 {
   text-transform: capitalize;
@@ -155,6 +156,7 @@ body {
 .about-me p {
   font-size: 18px;
   color: #000;
+  line-height: 25px;
 }
 /*  about section ends here */
 
